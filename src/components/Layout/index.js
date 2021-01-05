@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
     <>
       <LayoutWrapper>
       <Header/>
-       <TopImage/>
+       {/* <TopImage/> */}
        <TitleBlock/>
        <TileImage/>
        <MainMessage/>
