@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
        <MainMessage/>
        <TitleBlock2/>
        <LeftImageRightText/>
-       <LeftImageRightText2/>
-       <LeftImageRightText3/>     
+       {/* <LeftImageRightText2/>
+       <LeftImageRightText3/>      */}
        {/* <TitleBlock3/> */}
        {/* <LeftCardRightImage/> */}
         <Container>
