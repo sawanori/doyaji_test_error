@@ -31,9 +31,9 @@ const Layout = ({ children }) => {
        <LeftImageRightText3/>     
        {/* <TitleBlock3/> */}
        {/* <LeftCardRightImage/> */}
-        <Container>
+        {/* <Container>
         <main>{children}</main>
-        </Container>
+        </Container> */}
         <Footer/>
       </LayoutWrapper>
     </>
