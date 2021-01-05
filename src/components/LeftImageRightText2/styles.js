@@ -7,10 +7,9 @@ justify-content: center;
 flex-direction:row;
 
 
-background-color:#fff;
-
+background-color:#000;
 font-family: 'Noto Serif JP', serif;
-color:#000;
+color:#fff;
 font-weight:bold;
 
 @media (min-width:384px) {
@@ -31,8 +30,8 @@ font-weight:bold;
 
 export const LeftImage = styled.div`
 flex: 2;
-order: 1;
-width:700px;
+
+max-height:700px;
 @media (max-width:384px) {
   max-width:15px;
  }
@@ -40,7 +39,6 @@ width:700px;
 
 export const RightText = styled.div`
 flex: 2;
-order: 2;
 text-align:center;
 line-height:2.1;
 align-self:center;
@@ -63,3 +61,4 @@ h3{
   }
  }
 `
+

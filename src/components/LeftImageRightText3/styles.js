@@ -31,7 +31,7 @@ font-weight:bold;
 export const LeftImage = styled.div`
 flex: 2;
 
-width:700px;
+max-height:700px;
 @media (max-width:384px) {
   max-width:15px;
  }
@@ -61,3 +61,4 @@ h3{
   }
  }
 `
+
