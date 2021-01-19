@@ -28,3 +28,8 @@ margin:40px 0;
 font-weight:bold;
 font-size:30px;
 `
+
+export const TemplateWrapper = styled.section`
+    min-height: 100vh; 
+    position: relative;
+`

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import "typeface-gfs-didot"
+
 
 export const LeftImageRightTextWrapper = styled.div`
 display:flex;

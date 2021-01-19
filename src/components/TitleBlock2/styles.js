@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import "typeface-gfs-didot"
+
 export const TitleBlock2Wrapper = styled.div`
 height:90px;
 display:flex;

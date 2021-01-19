@@ -2,8 +2,8 @@
 
 import React,{useContext,useEffect,useState} from 'react'
 import {graphql} from 'gatsby'
-import {Layout,ImageGallery,ProductQuantityAdder,Button,Header,Container} from 'components'
-import {Grid,SelectWrapper,Price} from './styles'
+import {Layout,ImageGallery,ProductQuantityAdder,Button,Header,Container,Footer} from 'components'
+import {Grid,SelectWrapper,Price,TemplateWrapper} from './styles'
 import CartContext from 'context/CartContext'
 import {navigate, useLocation} from '@reach/router'
 import queryString from 'query-string'
@@ -39,7 +39,7 @@ export default function ProductTemplate(props) {
   }
  console.log(selectedVariant)
   return(
-    <>
+    <TemplateWrapper>
   <Header/>
   <Container>
     <Button onClick={() => navigate(-1)}>
@@ -84,6 +84,7 @@ export default function ProductTemplate(props) {
       </div>
    </Grid>
   </Container>
-  </>
+  <Footer/>
+  </TemplateWrapper>
   )
 }

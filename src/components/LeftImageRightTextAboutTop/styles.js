@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 
-export const LeftImageRightTextWrapper = styled.div`
+export const LeftImageRightTextAboutTopWrapper = styled.div`
 display:flex;
 justify-content: center;
-flex-direction:row;
+flex-direction:row-reverse;
 
 
 background-color:#000;

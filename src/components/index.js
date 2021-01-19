@@ -25,7 +25,14 @@ export * from './LeftImageRightText';
 export * from './LeftImageRightText2';
 export * from './LeftImageRightText2';
 export * from './AllProductLayout';
-
+export * from './LeftImageRightTextAboutTop';
+export * from './LeftImageRightTextAboutTop2';
+export * from './LeftImageRightTextAboutTop3';
+export * from './GoogleMap';
+export * from './HeroHeaderImage';
+export * from './MainMessage';
+export * from './CampanyData';
+export * from './RecruitData';
 export * from './Filters';
 export * from './Checkbox';
 

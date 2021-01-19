@@ -1,6 +1,14 @@
 import React from 'react'
-import {Container,CartContent} from 'components'
+import {Container,CartContent,Header,Footer} from 'components'
 
 export default function CartPage(){
-  return <Container><CartContent/></Container>
+  return (
+  <>
+  <Header/> 
+  <Container>
+    <CartContent/>
+  </Container>
+  <Footer/>
+ </>
+  )
 }

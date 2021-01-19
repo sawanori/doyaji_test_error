@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import "typeface-gfs-didot"
+
 export  const MainMessageWrapper = styled.section`
  text-align:center;
  font-size:14px;
