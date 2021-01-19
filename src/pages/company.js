@@ -5,7 +5,7 @@ const Company = () => {
     <>
       <Header/>
       <HeroHeaderImage>
-       当社のあゆみ
+       会社概要
       </HeroHeaderImage>
       <CampanyData/>
       

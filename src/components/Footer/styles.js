@@ -9,6 +9,7 @@ export const FooterWrapper = styled.footer`
  height:50px;
  background-color:#000;
  color:#fff;
+      
  .LinkStyles{
    color:"fff";
  }

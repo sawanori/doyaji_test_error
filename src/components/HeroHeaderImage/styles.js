@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const HeroHeaderImageWrapper = styled.header`
-        background-image: url(https://github.com/sawanori/dooyaji_ec/blob/master/src/images/middle_2.jpg?raw=true);
+        background-image: url(https://github.com/sawanori/dooyaji_ec/blob/master/src/images/top_message.jpg?raw=true);
+        
         background-size: cover;
         background-position: center top;
         width: 100%;

@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 export function LeftImageRightTextAboutTop (){
   const data = useStaticQuery(graphql`
   query {
-    placeholderImage: file(relativePath: { eq: "middle_1.jpg" }) {
+    placeholderImage: file(relativePath: { eq: "middle_5.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1200) {
           ...GatsbyImageSharpFluid
