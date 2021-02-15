@@ -29,8 +29,9 @@ const ActiveStyles = {
       <li>
         <Link to="/recruit" style={LinkStyles} activeStyle={ActiveStyles}><a>求人情報</a></Link>
       </li>
+       <li>©️韓国料理・サムギョプサル　どやじ</li>
       </ul>
-      ©️韓国料理・サムギョプサル　どやじ
+     
     </FooterWrapper>
  )
 }
