@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 export function LeftImageRightTextAboutTop3 (){
   const data = useStaticQuery(graphql`
   query {
-    placeholderImage: file(relativePath: { eq: "middle_1.jpg" }) {
+    placeholderImage: file(relativePath: { eq: "middle_7.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1200) {
           ...GatsbyImageSharpFluid
@@ -21,12 +21,12 @@ export function LeftImageRightTextAboutTop3 (){
       <Img fluid={image5}/>
     </LeftImage>
     <RightText>
-      <h3>ご自宅で楽しめる<br/>本場韓国サムギョプサル体験</h3>
+      <h3>無添加にこだわる<br/>採算どがえしの逸品</h3>
      <p>
-         みなさまの美味しいを聞きたくて、当店のサムギョプサルは<br/>
-        　利益度返しのお値打ち価格で打ち出しています。<br/>
-         またあのサムギョプサルが食べたいと思っていただけるよう<br/>
-         日々、飲食店舗とECショプの運営を意識しております。
+         できるだけ無添加にこだわり、自然の食材から<br/>
+        　旨味をだす手間暇は惜しみません。<br/>
+         正直、利益率は下がる一方ですが、<br/>
+         皆様の美味しかったの一言を励みに日々営業しております。
        </p> 
      </RightText>    
   </LeftImageRightTextAboutTopWrapper3>

@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 export function LeftImageRightTextAboutTop2 (){
   const data = useStaticQuery(graphql`
   query {
-    placeholderImage: file(relativePath: { eq: "middle_1.jpg" }) {
+    placeholderImage: file(relativePath: { eq: "middle_6.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1200) {
           ...GatsbyImageSharpFluid
@@ -19,11 +19,11 @@ export function LeftImageRightTextAboutTop2 (){
     <LeftImageRightTextAboutTopWrapper2>
 
     <RightText>
-      <h3>ご自宅で楽しめる<br/>本場韓国サムギョプサル体験</h3>
+      <h3>本場のメニュー<br/>韓国で食されるメニューを多数</h3>
      <p>
-     サムギョプサルの豚肉は、九州黒豚を使用。<br/>
-     また、当店では、韓国伝統を踏襲し、鉄板釜の蓋で肉や野菜を焼くスタイル。<br/>
-     野菜、キムチなどもおかわり自由！<br/>
+     あえて日本人の嗜好性に合わせず<br/>
+     本当に韓国で食事をしているのかと錯覚するような<br/>
+     メニューの数々<br/>
        </p> 
      </RightText>   
      <LeftImage>
